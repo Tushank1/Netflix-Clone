@@ -29,7 +29,7 @@ function Banner() {
     backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
     backgroundPosition: "center center",
     objectFit:  "cover",
-    width: "100%", height:"auto",
+    width: "auto", 
     }}
     >
         <div className="banner_contents">
